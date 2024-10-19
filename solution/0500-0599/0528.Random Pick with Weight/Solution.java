@@ -1,6 +1,8 @@
+import java.security.SecureRandom;
+
 class Solution {
     private int[] s;
-    private Random random = new Random();
+    private Random random = new SecureRandom();
 
     public Solution(int[] w) {
         int n = w.length;

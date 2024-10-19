@@ -1,8 +1,10 @@
+import java.security.SecureRandom;
+
 class Solution {
     private int m;
     private int n;
     private int total;
-    private Random rand = new Random();
+    private Random rand = new SecureRandom();
     private Map<Integer, Integer> mp = new HashMap<>();
 
     public Solution(int m, int n) {
