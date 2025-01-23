@@ -1,3 +1,5 @@
+import java.security.SecureRandom;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -10,7 +12,7 @@
  */
 class Solution {
     private ListNode head;
-    private Random random = new Random();
+    private Random random = new SecureRandom();
 
     public Solution(ListNode head) {
         this.head = head;
