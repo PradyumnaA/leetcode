@@ -1,3 +1,5 @@
+import java.security.SecureRandom;
+
 class Solution {
     private int[] nums;
     private int[] original;
@@ -6,7 +8,7 @@ class Solution {
     public Solution(int[] nums) {
         this.nums = nums;
         this.original = Arrays.copyOf(nums, nums.length);
-        this.rand = new Random();
+        this.rand = new SecureRandom();
     }
 
     public int[] reset() {

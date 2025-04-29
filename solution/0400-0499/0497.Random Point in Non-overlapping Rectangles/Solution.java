@@ -1,7 +1,9 @@
+import java.security.SecureRandom;
+
 class Solution {
     private int[] s;
     private int[][] rects;
-    private Random random = new Random();
+    private Random random = new SecureRandom();
 
     public Solution(int[][] rects) {
         int n = rects.length;
