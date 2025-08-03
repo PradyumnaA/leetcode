@@ -1,7 +1,9 @@
+import java.security.SecureRandom;
+
 class RandomizedSet {
     private Map<Integer, Integer> d = new HashMap<>();
     private List<Integer> q = new ArrayList<>();
-    private Random rnd = new Random();
+    private Random rnd = new SecureRandom();
 
     public RandomizedSet() {
     }

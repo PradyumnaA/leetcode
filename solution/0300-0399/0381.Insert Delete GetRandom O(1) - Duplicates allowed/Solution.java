@@ -1,3 +1,5 @@
+import java.security.SecureRandom;
+
 class RandomizedCollection {
     private Map<Integer, Set<Integer>> m;
     private List<Integer> l;
@@ -7,7 +9,7 @@ class RandomizedCollection {
     public RandomizedCollection() {
         m = new HashMap<>();
         l = new ArrayList<>();
-        rnd = new Random();
+        rnd = new SecureRandom();
     }
 
     /**
