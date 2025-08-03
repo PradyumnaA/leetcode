@@ -1,6 +1,8 @@
+import java.security.SecureRandom;
+
 class Solution {
     private int[] nums;
-    private Random random = new Random();
+    private Random random = new SecureRandom();
 
     public Solution(int[] nums) {
         this.nums = nums;

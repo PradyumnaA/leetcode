@@ -1,6 +1,8 @@
+import java.security.SecureRandom;
+
 class Solution {
     private Map<Integer, Integer> d = new HashMap<>();
-    private Random rand = new Random();
+    private Random rand = new SecureRandom();
     private int k;
 
     public Solution(int n, int[] blacklist) {
